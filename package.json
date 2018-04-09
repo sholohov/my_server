@@ -3,19 +3,10 @@
   "version": "0.1.0",
   "description": "my server",
   "main": "server.js",
-  "dependencies": {
-  },
-  "engine": {
-      "node": "*",
-      "npm": "*"
-  },
   "scripts": {
-      "start": "node server.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-      "Echo"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sholohov/my_server.git"
@@ -25,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/sholohov/my_server/issues"
   },
-  "homepage": "https://github.com/sholohov/my_server#readme"
+  "homepage": "https://github.com/sholohov/my_server#readme",
+  "dependencies": {}
 }

@@ -14,5 +14,5 @@ server.listen(server_port, server_ip_address, function(err) {
 	if (err) {
 		return console.log('something bad happened', err);
 	}
-	console.log("Listening on " + server_ip_address + ", server_port " + server_port);
+	console.log("Listening IP " + server_ip_address + " on port " + server_port);
 });
