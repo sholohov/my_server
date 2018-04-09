@@ -1,8 +1,18 @@
 {
-  "name": "my_server",
-  "version": "0.1.0",
-  "description": "my server",
+  "name": "nodejs-ex",
+  "version": "0.0.1",
+  "description": "Node.js sample app for OpenShift 3",
   "main": "server.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "ejs": "^2.4.1",
+    "express": "^4.16.3",
+    "mocha": "^2.4.5",
+    "mongodb": "^2.1.16",
+    "morgan": "^1.9.0",
+    "object-assign": "^4.1.0"
+  },
   "engine": {
     "node": "*",
     "npm": "*"
@@ -13,13 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sholohov/my_server.git"
+    "url": "http://github.com/openshift/nodejs-ex.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Steve Speicher <sspeiche@gmail.com>",
+  "license": "CC-BY-1.0",
   "bugs": {
-    "url": "https://github.com/sholohov/my_server/issues"
+    "url": "http://github.com/openshift/nodejs-ex/issues"
   },
-  "homepage": "https://github.com/sholohov/my_server#readme",
-  "dependencies": {}
+  "homepage": "http://github.com/openshift/nodejs-ex"
 }
