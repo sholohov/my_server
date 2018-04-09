@@ -3,21 +3,17 @@
   "version": "0.1.0",
   "description": "my server",
   "main": "server.js",
-  "dependencies": {
-  },
-  "devDependencies": {
-      "nodemon": "*"
-  },
+  "dependencies": {},
   "engine": {
-      "node": "*",
-      "npm": "*"
+    "node": "*",
+    "npm": "*"
   },
   "scripts": {
-      "dev": "nodemon --ignore node_modules/ server.js",
-      "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-      "Echo"
+    "Echo"
   ],
   "repository": {
     "type": "git",
