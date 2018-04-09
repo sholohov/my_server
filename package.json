@@ -1,0 +1,32 @@
+{
+  "name": "my_server",
+  "version": "0.1.0",
+  "description": "my server",
+  "main": "server.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+      "nodemon": "*"
+  },
+  "engine": {
+      "node": "*",
+      "npm": "*"
+  },
+  "scripts": {
+      "dev": "nodemon --ignore node_modules/ server.js",
+      "start": "node server.js"
+  },
+  "keywords": [
+      "Echo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sholohov/my_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sholohov/my_server/issues"
+  },
+  "homepage": "https://github.com/sholohov/my_server#readme"
+}
