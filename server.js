@@ -1,7 +1,7 @@
 var http = require('http');
 
-var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
-var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
+	ip = process.env.IP || process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 
 var requestHandler = function(request, response) {
 	console.log(request.url);
@@ -10,9 +10,9 @@ var requestHandler = function(request, response) {
 
 var server = http.createServer(requestHandler);
 
-server.listen(server_port, server_ip_address, function(err) {
+server.listen(port, ip, function(err) {
 	if (err) {
 		return console.log('something bad happened', err);
 	}
-	console.log("Listening IP " + server_ip_address + " on port " + server_port);
+	console.log(ip + ":" + port);
 });
